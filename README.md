@@ -1,4 +1,4 @@
-# Growth.cx_Assignment Word Count App
+# Growth_Assignment Word Count App
 
 This URL Insight Tracker based web application is designed to extract and store word counts and media details from user-provided URLs. These insights are saved in a database, making them accessible for users. The application also provides the ability to retrieve all insights for a specific user, with optional filtering based on favorite status.
 
