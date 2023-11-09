@@ -150,16 +150,6 @@ For detailed information on how to use our API, please refer to the [API documen
 
 
 
-```javascript
-app.get("/",async(req,res)=>{
-     try {
-        res.status(200).send({ok:true,msg:"Welcome to Growth.cx word count app backend."})
-    } catch (error) {
-        console.log("error in '/' route");
-        res.status(501).send({ msg: "Internal Server error", error: error.message });
-    }
-});
-```
 
 
 
