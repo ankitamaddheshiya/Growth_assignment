@@ -48,7 +48,7 @@ This URL Insight Tracker based web application is designed to extract and store 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/aman1722/Growth.cx_Assignment
+   git clone https://github.com/ankitamaddheshiya/Growth_assignment.git
    ```
    
 2. Go to Backend Directory
@@ -102,13 +102,13 @@ JWT_LOGIN_SECRET=`CREATE_A_SECRET_FOR_LOGIN_TOKEN`
 
 
 #### Dummy User Credentials 1: 
-email: `aman@gmail.com`
-password: `Aman`
+email: `ankitamaddheshiyacs@gmail.com`
+password: `Ankita`
 
 
 #### Dummy User Credentials 2: 
-email: `chunnu@gmail.com`
-password: `chunnu`
+email: `ankitamaddheshiyacs@gmail.com`
+password: `chhunni`
 
 
 
@@ -162,53 +162,9 @@ app.get("/",async(req,res)=>{
 ```
 
 
-## Database Schema
-
-![Alt text](Backend/docs/EntityRelationshipDigram.png)
 
 
-## Folder Structure
 
-We maintain a clean and organized folder structure for easy navigation and development. Get familiar with it in the [Folder Structure](Backend/docs/FolderStructure.md) document.
-
-
-## Frontend SnapShots
-
-### Home Page
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/391f4278-294d-4c58-92b7-07f54e49808d)
-
-### Login Page
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/5254c91c-735b-4159-8570-be90f8cd406b)
-
-### Signup Page
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/fc57b054-f665-407a-aefb-5b611d643909)
-
-### Dashboard Page
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/54182eea-25aa-4639-b198-12ee697c0e7d)
-
-### Favorites Page
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/7a3982d4-d363-41d8-96b3-8627b74a5739)
-
-### Alert Message
- ![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/7360f558-fd0a-41fd-b276-8c09ec226e90)
-
-
-## Swagger Docs SnapShots
-
-### Home-swagger
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/7c6d4f71-e3fd-49b6-8322-8476889a21de)
-
-### User-swagger
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/508b323e-40a9-4a42-ad33-7ec1f09edd83)
-
-### Insight-swagger
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/9908b895-eb52-4fd7-94ea-b52d6ba4ddb0)
-
-### Schemas-swagger
-![image](https://github.com/aman1722/Growth.cx_Assignment/assets/112754413/dbd311d3-d12f-4274-af70-2fc847b4b619)
-
-
-Made with ❤️ by aman1722.
 
 
 
