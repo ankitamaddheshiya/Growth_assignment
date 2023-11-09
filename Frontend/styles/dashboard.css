@@ -3,11 +3,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #E0F7FA;
+    background-color: #FFFF;
 }
 
 .navbar {
-    background-color: #b8e0ff;
+    background-color: #FFFF;
     display: flex;
 
     align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-brand {
-    color: black;
+    color: rgb(118, 23, 23);
     font-size: 30px;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-nav li a {
-    color: black;
+    color:rgb(118, 23, 23);
     text-decoration: none;
     font-size: 20px;
     transition: background-color 0.3s ease;
@@ -56,7 +56,7 @@ body {
 .navbar-user {
     display: flex;
     align-items: center;
-    color: black;
+    color: rgb(118, 23, 23);
     /* border: 1px solid black; */
     margin-left: 10px;
 }
@@ -84,7 +84,7 @@ body {
 .navbar-buttons button:hover {
     background-color: #E8EAF6;
     font-size: 20px;
-    color: brown;
+    color:Black;
     font-weight: bolder;
 }
 
