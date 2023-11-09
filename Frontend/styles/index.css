@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0F7FA;
+}
+
+.navbar {
+  background-color: #b8e0ff;
+  display: flex;
+ 
+  align-items: center;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+.navbar-brand{
+  color: black;
+  font-size: 30px;
+}
+
+.navbar-brand img {
+  cursor: pointer;
+  margin-left: 30px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.navbar-menu {
+  margin-right: 30px;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.navbar-menu li {
+  font-size: 24px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar-nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  cursor: pointer;
+  font-size: 25px;
+  /* background-color: #ddd; */
+  text-decoration: underline;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  color: black;
+  /* border: 1px solid black; */
+  margin-left:10px;
+}
+
+.navbar-user h2 {
+  cursor: pointer;
+  /* margin-left: auto; */
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.navbar-buttons button {
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d28dd8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-buttons button:hover {
+  background-color: #E8EAF6;
+  font-size: 20px;
+  color:brown;
+  font-weight: bolder;
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.input-url{
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn{
+  width: 30%;
+}
